@@ -12,4 +12,8 @@ describe("FizzBuzz", () => {
     expect(fizzBuzz(5)).toBe("Buzz");
     expect(fizzBuzz(10)).toBe("Buzz");
   });
+  it("debería retornar 'FizzBuzz' si el número es múltiplo de 3 y 5", () => {
+    expect(fizzBuzz(15)).toBe("FizzBuzz");
+    expect(fizzBuzz(30)).toBe("FizzBuzz");
+  });
 });
